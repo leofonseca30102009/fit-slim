@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia na Chácara Califórnia, São Paulo | Fit Slim tatuapé</title>
+  <meta name="description" content="Academia na Chácara Califórnia (Tatuapé, São Paulo): musculação, aulas coletivas, cardio e fortalecimento 50+. Nota 4,5 no Google. Agende sua aula experimental pelo WhatsApp.">
+  <meta name="theme-color" content="#0b0c0b">
+  <!-- Quando o site tiver domínio: <link rel="canonical" href="https://SEU-DOMINIO/"> -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Fit Slim tatuapé — academia na Chácara Califórnia">
+  <meta property="og:description" content="Musculação, aulas coletivas, cardio e fortalecimento 50+. Agende sua aula experimental pelo WhatsApp.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=1200&h=630&fit=crop&q=70&auto=format">
+  <link rel="icon" href="fit-slim-logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0b0c0b',
+            coal: '#151817',
+            slate: '#1f2321',
+            line: '#2f3532',
+            bone: '#eef0ea',
+            mist: '#a8b0aa',
+            lime: { DEFAULT: '#2ee612', deep: '#1a7a0a' },
+          },
+          fontFamily: {
+            display: ['Anton', 'Impact', 'sans-serif'],
+            sans: ['Archivo', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Fit Slim tatuapé",
+    "image": "fit-slim-logo.jpg",
+    "telephone": "+55 11 3530-4129",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Diamante Preto, 116",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "03317-040",
+      "addressCountry": "BR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": -23.5409505, "longitude": -46.5582079 },
+    "hasMap": "https://www.google.com/maps/place/Fit+Slim+tatuap%C3%A9/data=!4m7!3m6!1s0x94ce5e8b34e6ba5d:0xc76be91d66dd0bda!8m2!3d-23.5409505!4d-46.5582079!16s%2Fg%2F11c74kmkp0!19sChIJXbrmNItezpQR2gvdZh3pa8c",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "06:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+    ],
+    "sameAs": ["https://www.instagram.com/fitslimacademia/"]
+  }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    body { background: #0b0c0b; color: #eef0ea; -webkit-font-smoothing: antialiased; }
+    ::selection { background: #2ee612; color: #0b0c0b; }
+    :focus-visible { outline: 3px solid #2ee612; outline-offset: 3px; border-radius: 6px; }
+    html { scrollbar-color: #2f3532 #0b0c0b; }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #0b0c0b; }
+    ::-webkit-scrollbar-thumb { background: #2f3532; border-radius: 10px; }
+
+    .display { font-family: Anton, Impact, sans-serif; text-transform: uppercase; letter-spacing: .005em; line-height: .92; text-wrap: balance; }
+
+    /* Faixa verde que "carrega" a palavra, como nas artes do Instagram da academia */
+    .bar { position: relative; display: inline-block; color: #0b0c0b; padding: .02em .14em .06em; isolation: isolate; }
+    .bar::before { content: ""; position: absolute; inset: 0; background: #2ee612; border-radius: .08em; z-index: -1; transform-origin: left; }
+    .js .hero-in .bar::before { transform: scaleX(0); animation: sweep .7s cubic-bezier(.16,1,.3,1) .35s forwards; }
+    @keyframes sweep { to { transform: scaleX(1); } }
+
+    /* Entrada das seções: sobe e aparece; --d escalona irmãos */
+    .reveal { transition: opacity .8s cubic-bezier(.16,1,.3,1) var(--d,0ms), transform .8s cubic-bezier(.16,1,.3,1) var(--d,0ms); }
+    .js .reveal:not(.is-visible) { opacity: 0; transform: translateY(24px); }
+
+    /* Fotos das modalidades: zoom-out suave quando a linha aparece */
+    .zoom img { transition: transform 1.2s cubic-bezier(.16,1,.3,1); }
+    .js .reveal:not(.is-visible) .zoom img { transform: scale(1.12); }
+
+    /* Hero: foto aproxima devagar; título sobe linha a linha; botão e formulário em seguida */
+    .hero-img { animation: kenburns 2.4s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes kenburns { from { transform: scale(1.1); } to { transform: scale(1); } }
+    .line { display: block; overflow: hidden; padding-bottom: .04em; }
+    .line > span { display: inline-block; }
+    .js .hero-in .line > span { animation: rise .9s cubic-bezier(.16,1,.3,1) backwards; }
+    .js .hero-in .line:nth-child(2) > span { animation-delay: .12s; }
+    @keyframes rise { from { transform: translateY(105%); } to { transform: none; } }
+    .js .hero-in .bar::before { animation-delay: .55s; }
+    .js .hero-cta, .js .hero-form { animation: fadeup .8s cubic-bezier(.16,1,.3,1) backwards; }
+    .js .hero-cta { animation-delay: .5s; }
+    .js .hero-form { animation-delay: .65s; }
+    @keyframes fadeup { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+
+    /* Estrelas acendem uma a uma */
+    .stars svg { transition: transform .5s cubic-bezier(.34,1.56,.64,1), opacity .4s; }
+    .stars svg:nth-child(2) { transition-delay: .08s; } .stars svg:nth-child(3) { transition-delay: .16s; }
+    .stars svg:nth-child(4) { transition-delay: .24s; } .stars svg:nth-child(5) { transition-delay: .32s; }
+    .js .stars:not(.is-visible) svg { transform: scale(.3); opacity: 0; }
+    .js .stars.reveal:not(.is-visible) { transform: none; opacity: 1; }
+
+    /* Seta dos CTAs avança no hover */
+    .cta svg, .cta [aria-hidden="true"] { transition: transform .3s cubic-bezier(.16,1,.3,1); }
+    .cta:hover svg, .cta:hover [aria-hidden="true"] { transform: translateX(4px); }
+
+    /* Cabeçalho ganha fundo sólido ao rolar */
+    #topo.scrolled { background-color: rgba(11,12,11,.92); border-color: rgba(255,255,255,.06); }
+
+    /* Ícone do menu vira X */
+    #menuBtn path { transition: transform .3s cubic-bezier(.16,1,.3,1), opacity .2s; transform-origin: 12px 12px; }
+    #menuBtn[aria-expanded="true"] .l1 { transform: translateY(5px) rotate(45deg); }
+    #menuBtn[aria-expanded="true"] .l2 { opacity: 0; }
+    #menuBtn[aria-expanded="true"] .l3 { transform: translateY(-5px) rotate(-45deg); }
+    #menuMobile:not(.hidden) li { animation: fadeup .4s cubic-bezier(.16,1,.3,1) backwards; }
+    #menuMobile li:nth-child(2) { animation-delay: .03s; } #menuMobile li:nth-child(3) { animation-delay: .06s; }
+    #menuMobile li:nth-child(4) { animation-delay: .09s; } #menuMobile li:nth-child(5) { animation-delay: .12s; } #menuMobile li:nth-child(6) { animation-delay: .15s; }
+
+    /* Botão flutuante entra com um "pop" depois do hero */
+    .wa-float { animation: pop .6s cubic-bezier(.34,1.56,.64,1) 1.2s backwards; }
+    @keyframes pop { from { transform: scale(0); } to { transform: scale(1); } }
+
+    .chip input { position: absolute; opacity: 0; pointer-events: none; }
+    .chip span { transition: background-color .2s, color .2s, border-color .2s, transform .15s; }
+    .chip:hover span { border-color: #6b736d; }
+    .chip:active span { transform: scale(.96); }
+    .chip input:checked + span { background: #2ee612; color: #0b0c0b; border-color: #2ee612; }
+    .chip input:focus-visible + span { outline: 3px solid #2ee612; outline-offset: 2px; }
+
+    .tilt img { transition: transform .8s cubic-bezier(.16,1,.3,1); }
+    .tilt:hover img { transform: scale(1.04); }
+
+    .wa-float { box-shadow: 0 10px 24px -6px rgba(0,0,0,.6), 0 3px 8px rgba(0,0,0,.4); }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .js .reveal:not(.is-visible), .js .reveal:not(.is-visible) .zoom img, .js .stars:not(.is-visible) svg { opacity: 1; transform: none; }
+      .js .hero-in .bar::before { animation: none; transform: none; }
+      .hero-img, .js .hero-in .line > span, .js .hero-cta, .js .hero-form, .wa-float, #menuMobile:not(.hidden) li { animation: none; }
+      .reveal, .tilt img, .zoom img, .chip span, .stars svg, .cta svg, #menuBtn path { transition: none; }
+    }
+  </style>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body class="font-sans antialiased">
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:rounded-lg focus:bg-lime focus:px-4 focus:py-2 focus:font-bold focus:text-ink">Pular para o conteúdo</a>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header id="topo" class="fixed inset-x-0 top-0 z-50 border-b border-transparent bg-ink/60 backdrop-blur-md transition-[background-color,border-color] duration-300">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20">
+      <a href="#inicio" class="flex items-center gap-3 rounded-lg" aria-label="Fit Slim tatuapé — início">
+        <img src="fit-slim-logo.jpg" alt="Logo Fit Slim — A sua academia" width="150" height="150" class="h-11 w-11 rounded-full lg:h-14 lg:w-14">
+        <span class="hidden text-sm font-semibold leading-tight text-mist sm:block">Fit Slim<br><span class="text-bone">tatuapé</span></span>
+      </a>
+
+      <nav aria-label="Principal" class="hidden lg:block">
+        <ul class="flex items-center gap-7 text-[15px] font-medium text-mist">
+          <li><a class="transition-colors hover:text-lime" href="#modalidades">Modalidades</a></li>
+          <li><a class="transition-colors hover:text-lime" href="#estrutura">Estrutura</a></li>
+          <li><a class="transition-colors hover:text-lime" href="#planos">Planos</a></li>
+          <li><a class="transition-colors hover:text-lime" href="#professores">Professores</a></li>
+          <li><a class="transition-colors hover:text-lime" href="#avaliacoes">Avaliações</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="#agendar" class="hidden rounded-full bg-lime px-5 py-2.5 text-sm font-bold text-ink transition hover:brightness-110 sm:inline-flex">Agendar aula experimental</a>
+        <button id="menuBtn" type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-bone lg:hidden" aria-expanded="false" aria-controls="menuMobile" aria-label="Abrir menu">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="menuMobile" aria-label="Menu" class="hidden border-t border-white/5 bg-ink lg:hidden">
+      <ul class="mx-auto max-w-6xl px-4 py-3 text-lg font-semibold">
+        <li><a class="block rounded-lg px-2 py-3 hover:text-lime" href="#modalidades">Modalidades</a></li>
+        <li><a class="block rounded-lg px-2 py-3 hover:text-lime" href="#estrutura">Estrutura</a></li>
+        <li><a class="block rounded-lg px-2 py-3 hover:text-lime" href="#planos">Planos</a></li>
+        <li><a class="block rounded-lg px-2 py-3 hover:text-lime" href="#professores">Professores</a></li>
+        <li><a class="block rounded-lg px-2 py-3 hover:text-lime" href="#avaliacoes">Avaliações</a></li>
+        <li class="pt-2 pb-1"><a class="flex justify-center rounded-full bg-lime px-5 py-3.5 text-base font-bold text-ink" href="#agendar">Agendar aula experimental</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ 1. HERO ============ -->
+    <section id="inicio" class="relative overflow-hidden pt-16 lg:pt-20" aria-labelledby="hero-titulo">
+      <!-- FOTO PROVISÓRIA (Unsplash): trocar por foto real de aluno treinando na Fit Slim -->
+      <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=1800&q=70&auto=format&fit=crop"
+           srcset="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=800&q=65&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=1800&q=70&auto=format&fit=crop 1800w"
+           sizes="100vw" alt="Aluna fazendo remada com halter na academia" width="1800" height="1200" fetchpriority="high"
+           class="hero-img absolute inset-0 h-full w-full object-cover object-[70%_center]">
+      <div class="absolute inset-0 bg-gradient-to-b from-ink/70 via-ink/75 to-ink lg:bg-gradient-to-r lg:from-ink lg:via-ink/80 lg:to-ink/30" aria-hidden="true"></div>
+
+      <div class="hero-in relative mx-auto grid max-w-6xl gap-10 px-4 pb-14 pt-12 sm:px-6 lg:grid-cols-[1.15fr_.85fr] lg:items-end lg:gap-14 lg:pb-24 lg:pt-28">
+        <div>
+          <h1 id="hero-titulo" class="display text-[clamp(2.6rem,14.5vw,3.6rem)] sm:text-7xl lg:text-[6rem]">
+            <span class="line"><span>Força para</span></span><span class="line"><span class="bar">viver a vida</span></span>
+          </h1>
+          <a href="#agendar" class="hero-cta cta mt-10 inline-flex w-full items-center justify-center gap-2 rounded-full bg-lime px-7 py-4 text-base font-bold text-ink transition hover:brightness-110 active:scale-[.98] sm:w-auto">
+            Agendar aula experimental
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <!-- Montador da aula experimental (vira mensagem pronta no WhatsApp) -->
+        <form id="agendar" class="hero-form scroll-mt-24 rounded-3xl border border-white/10 bg-coal/90 p-5 backdrop-blur sm:p-7" data-wa-form aria-labelledby="form-titulo">
+          <h2 id="form-titulo" class="text-2xl font-extrabold tracking-tight">Agende sua aula experimental</h2>
+
+          <fieldset class="mt-5">
+            <legend class="text-sm font-semibold text-bone">O que você quer treinar?</legend>
+            <div class="mt-2.5 flex flex-wrap gap-2">
+              <label class="chip relative cursor-pointer"><input type="radio" name="modalidade" value="Musculação" checked><span class="block rounded-full border border-line px-4 py-2.5 text-sm font-semibold">Musculação</span></label>
+              <label class="chip relative cursor-pointer"><input type="radio" name="modalidade" value="Aulas coletivas"><span class="block rounded-full border border-line px-4 py-2.5 text-sm font-semibold">Aulas coletivas</span></label>
+              <label class="chip relative cursor-pointer"><input type="radio" name="modalidade" value="Cardio"><span class="block rounded-full border border-line px-4 py-2.5 text-sm font-semibold">Cardio</span></label>
+              <label class="chip relative cursor-pointer"><input type="radio" name="modalidade" value="Fortalecimento 50+"><span class="block rounded-full border border-line px-4 py-2.5 text-sm font-semibold">Fortalecimento 50+</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="mt-5">
+            <legend class="text-sm font-semibold text-bone">Melhor período</legend>
+            <div class="mt-2.5 grid grid-cols-3 gap-2">
+              <label class="chip relative cursor-pointer"><input type="radio" name="periodo" value="manhã" checked><span class="block rounded-xl border border-line px-2 py-2.5 text-center text-sm font-semibold">Manhã</span></label>
+              <label class="chip relative cursor-pointer"><input type="radio" name="periodo" value="tarde"><span class="block rounded-xl border border-line px-2 py-2.5 text-center text-sm font-semibold">Tarde</span></label>
+              <label class="chip relative cursor-pointer"><input type="radio" name="periodo" value="noite"><span class="block rounded-xl border border-line px-2 py-2.5 text-center text-sm font-semibold">Noite</span></label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="mt-6 inline-flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-full bg-lime px-4 py-4 text-[15px] font-bold min-[360px]:text-base sm:gap-2.5 sm:px-6 text-ink transition hover:brightness-110 active:scale-[.98]">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2a9.9 9.9 0 0 0-8.57 14.86L2 22l5.27-1.38a9.9 9.9 0 0 0 4.77 1.21A9.9 9.9 0 0 0 21.94 12a9.83 9.83 0 0 0-2.9-7.09zm-7 15.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 1 1 6.98 3.86zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.78.97-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-1.98-1.22 7.5 7.5 0 0 1-1.37-1.7c-.14-.25 0-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.48a.92.92 0 0 0-.66.31 2.79 2.79 0 0 0-.87 2.07c0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.6.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29z"/></svg>
+            Agendar aula experimental
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ 2. MODALIDADES ============ -->
+    <section id="modalidades" class="bg-ink py-20 sm:py-28" aria-labelledby="mod-titulo">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="reveal max-w-2xl">
+          <h2 id="mod-titulo" class="display text-[clamp(2.4rem,12vw,3rem)] sm:text-6xl">Do seu jeito, <span class="text-mist">no seu ritmo</span></h2>
+        </div>
+
+        <div class="mt-14 divide-y divide-line border-y border-line">
+          <!-- Cada modalidade é uma linha; as fotos são provisórias (Unsplash) -->
+          <article class="reveal grid gap-5 py-8 sm:grid-cols-[220px_1fr] sm:items-center sm:gap-8 lg:grid-cols-[300px_1fr]">
+            <div class="tilt zoom aspect-[16/10] overflow-hidden rounded-2xl">
+              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=700&q=65&auto=format&fit=crop" alt="Aluno levantando barra com anilhas" width="700" height="440" loading="lazy" class="h-full w-full object-cover">
+            </div>
+            <div>
+              <h3 class="display text-4xl sm:text-5xl">Musculação</h3>
+              <p class="mt-3 max-w-lg text-[17px] leading-relaxed text-mist">Treino de força com ficha montada e acompanhada pelo professor.</p>
+            </div>
+          </article>
+
+          <article class="reveal grid gap-5 py-8 sm:grid-cols-[220px_1fr] sm:items-center sm:gap-8 lg:grid-cols-[300px_1fr]">
+            <div class="tilt zoom aspect-[16/10] overflow-hidden rounded-2xl">
+              <img src="https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?w=700&q=65&auto=format&fit=crop" alt="Turma dançando em aula coletiva" width="700" height="440" loading="lazy" class="h-full w-full object-cover">
+            </div>
+            <div>
+              <h3 class="display text-4xl sm:text-5xl">Aulas coletivas</h3>
+              <p class="mt-3 max-w-lg text-[17px] leading-relaxed text-mist">Treino em turma, com energia e constância.</p>
+            </div>
+          </article>
+
+          <article class="reveal grid gap-5 py-8 sm:grid-cols-[220px_1fr] sm:items-center sm:gap-8 lg:grid-cols-[300px_1fr]">
+            <div class="tilt zoom aspect-[16/10] overflow-hidden rounded-2xl">
+              <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=700&q=65&auto=format&fit=crop" alt="Fileira de esteiras e aparelhos de cardio" width="700" height="440" loading="lazy" class="h-full w-full object-cover">
+            </div>
+            <div>
+              <h3 class="display text-4xl sm:text-5xl">Cardio</h3>
+              <p class="mt-3 max-w-lg text-[17px] leading-relaxed text-mist">Aparelhos aeróbicos para fôlego e saúde do coração.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Destaque: programa 50+ (informação do Instagram da academia) -->
+        <div class="reveal mt-12 overflow-hidden rounded-3xl bg-lime text-ink">
+          <div class="grid lg:grid-cols-[1fr_.9fr]">
+            <div class="p-6 sm:p-10 lg:p-12">
+              <p class="display text-[clamp(4.5rem,24vw,5.5rem)] leading-none sm:text-[7rem]" aria-hidden="true">50+</p>
+              <h3 class="mt-4 text-[1.7rem] font-extrabold leading-tight tracking-tight sm:text-4xl">Fortalecimento 50+ e 60+</h3>
+              <p class="mt-4 max-w-md text-lg leading-relaxed text-ink/80">Treino seguro e personalizado para mais força, equilíbrio e independência.</p>
+              <a href="#agendar" data-modalidade="Fortalecimento 50+" class="cta mt-7 inline-flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-full bg-ink px-5 py-3.5 text-[15px] font-bold min-[360px]:text-base sm:px-6 text-bone transition hover:bg-slate sm:w-auto">Agendar aula experimental <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="relative aspect-[4/3] lg:aspect-auto">
+              <!-- FOTO PROVISÓRIA: trocar por foto real de aluno 50+ da academia -->
+              <img src="https://images.unsplash.com/photo-1761839258420-5c3e2f2e2a74?w=900&q=65&auto=format&fit=crop" alt="Aluna fazendo agachamento com barra na academia" width="900" height="700" loading="lazy" class="absolute inset-0 h-full w-full object-cover object-[60%_center]">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. ESTRUTURA ============ -->
+    <section id="estrutura" class="bg-coal py-20 sm:py-28" aria-labelledby="est-titulo">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="reveal flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <div class="max-w-2xl">
+            <h2 id="est-titulo" class="display text-[clamp(2.4rem,12vw,3rem)] sm:text-6xl">Equipamentos <span class="text-mist">de primeira</span></h2>
+          </div>
+          <a href="#agendar" class="inline-flex shrink-0 items-center justify-center rounded-full bg-lime px-6 py-3.5 font-bold text-ink transition hover:brightness-110">Agendar aula experimental</a>
+        </div>
+
+        <!-- GALERIA: fotos provisórias (Unsplash). Trocar src/alt pelas fotos reais da academia. -->
+        <ul class="stagger -mx-4 mt-12 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-4 sm:mx-0 sm:grid sm:grid-cols-6 sm:grid-rows-[220px_220px] sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-rows-[260px_260px]" aria-label="Galeria da estrutura">
+          <li class="reveal tilt relative w-[80%] shrink-0 snap-start overflow-hidden rounded-2xl sm:col-span-3 sm:row-span-2 sm:w-auto">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=65&auto=format&fit=crop" alt="Sala de musculação com halteres organizados" width="1000" height="1000" loading="lazy" class="aspect-[4/5] h-full w-full object-cover sm:aspect-auto">
+            <span class="absolute bottom-3 left-3 rounded-full bg-ink/80 px-3 py-1.5 text-sm font-semibold backdrop-blur">Sala de musculação</span>
+          </li>
+          <li class="reveal tilt relative w-[80%] shrink-0 snap-start overflow-hidden rounded-2xl sm:col-span-2 sm:w-auto">
+            <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=700&q=65&auto=format&fit=crop" alt="Rack de agachamento e anilhas" width="700" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover sm:aspect-auto">
+            <span class="absolute bottom-3 left-3 rounded-full bg-ink/80 px-3 py-1.5 text-sm font-semibold backdrop-blur">Pesos livres</span>
+          </li>
+          <li class="reveal tilt relative w-[80%] shrink-0 snap-start overflow-hidden rounded-2xl sm:col-span-1 sm:w-auto">
+            <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=500&q=65&auto=format&fit=crop" alt="Halteres em fileira" width="500" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover sm:aspect-auto">
+            <span class="absolute bottom-3 left-3 rounded-full bg-ink/80 px-3 py-1.5 text-sm font-semibold backdrop-blur">Halteres</span>
+          </li>
+          <li class="reveal tilt relative w-[80%] shrink-0 snap-start overflow-hidden rounded-2xl sm:col-span-1 sm:w-auto">
+            <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=500&q=65&auto=format&fit=crop" alt="Barra com anilhas pronta para o treino" width="500" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover sm:aspect-auto">
+            <span class="absolute bottom-3 left-3 rounded-full bg-ink/80 px-3 py-1.5 text-sm font-semibold backdrop-blur">Barras</span>
+          </li>
+          <li class="reveal tilt relative w-[80%] shrink-0 snap-start overflow-hidden rounded-2xl sm:col-span-2 sm:w-auto">
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=700&q=65&auto=format&fit=crop" alt="Aparelhos de musculação e bicicletas" width="700" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover sm:aspect-auto">
+            <span class="absolute bottom-3 left-3 rounded-full bg-ink/80 px-3 py-1.5 text-sm font-semibold backdrop-blur">Aparelhos</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 4. PLANOS E HORÁRIOS (seção clara) ============ -->
+    <section id="planos" class="bg-bone py-20 text-ink sm:py-28" aria-labelledby="pla-titulo">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="reveal flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <div class="max-w-2xl">
+            <h2 id="pla-titulo" class="display text-[clamp(2.4rem,12vw,3rem)] sm:text-6xl">Planos a partir de <span class="bar">R$ 89,90</span>/mês</h2>
+          </div>
+          <a href="#agendar" class="inline-flex shrink-0 items-center justify-center rounded-full bg-ink px-6 py-3.5 font-bold text-bone transition hover:bg-slate">Agendar aula experimental</a>
+        </div>
+
+        <!-- Tabela de planos: preencher [PREÇO] e conferir nomes e itens com a academia -->
+        <div class="reveal mt-12 overflow-hidden rounded-3xl border border-ink/10 bg-white">
+          <table class="w-full text-left">
+            <caption class="sr-only">Planos da Fit Slim tatuapé</caption>
+            <thead class="hidden bg-ink/[.04] text-sm text-ink/60 sm:table-header-group">
+              <tr><th scope="col" class="px-6 py-4 font-semibold">Plano</th><th scope="col" class="px-6 py-4 font-semibold">O que inclui</th><th scope="col" class="px-6 py-4 text-right font-semibold">Valor</th></tr>
+            </thead>
+            <tbody class="divide-y divide-ink/10">
+              <tr class="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 px-5 py-5 sm:table-row sm:p-0">
+                <th scope="row" class="text-xl font-extrabold sm:px-6 sm:py-6">Mensal</th>
+                <td class="col-start-1 row-start-2 text-[15px] text-ink/70 sm:px-6 sm:py-6">[O QUE INCLUI]</td>
+                <td class="row-span-2 self-center text-right sm:px-6 sm:py-6"><span class="text-2xl font-extrabold">[PREÇO]</span><span class="text-sm text-ink/60">/mês</span></td>
+              </tr>
+              <tr class="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 px-5 py-5 sm:table-row sm:p-0">
+                <th scope="row" class="text-xl font-extrabold sm:px-6 sm:py-6">Trimestral</th>
+                <td class="col-start-1 row-start-2 text-[15px] text-ink/70 sm:px-6 sm:py-6">[O QUE INCLUI]</td>
+                <td class="row-span-2 self-center text-right sm:px-6 sm:py-6"><span class="text-2xl font-extrabold">[PREÇO]</span><span class="text-sm text-ink/60">/mês</span></td>
+              </tr>
+              <tr class="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 px-5 py-5 sm:table-row sm:p-0">
+                <th scope="row" class="text-xl font-extrabold sm:px-6 sm:py-6">Anual</th>
+                <td class="col-start-1 row-start-2 text-[15px] text-ink/70 sm:px-6 sm:py-6">[O QUE INCLUI]</td>
+                <td class="row-span-2 self-center text-right sm:px-6 sm:py-6"><span class="text-2xl font-extrabold">[PREÇO]</span><span class="text-sm text-ink/60">/mês</span></td>
+              </tr>
+              <tr class="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 px-5 py-5 sm:table-row sm:p-0">
+                <th scope="row" class="text-xl font-extrabold sm:px-6 sm:py-6">Personal trainer</th>
+                <td class="col-start-1 row-start-2 text-[15px] text-ink/70 sm:px-6 sm:py-6">Treino individual, com avaliação e acompanhamento</td>
+                <td class="row-span-2 self-center text-right sm:px-6 sm:py-6"><span class="text-lg font-bold">Consulte</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Horário de funcionamento -->
+        <div class="reveal mt-6 grid gap-4 rounded-3xl bg-ink p-6 text-bone sm:p-8 lg:grid-cols-[1fr_2fr] lg:items-center">
+          <h3 class="text-2xl font-extrabold tracking-tight">Horário de funcionamento</h3>
+          <dl class="grid divide-y divide-line text-[17px] sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+            <div class="flex justify-between gap-4 py-3.5 sm:block sm:px-6 sm:py-0 sm:first:pl-0"><dt class="text-mist">Segunda a sexta</dt><dd class="font-bold tabular-nums sm:mt-1 sm:text-2xl">6h às 23h</dd></div>
+            <div class="flex justify-between gap-4 py-3.5 sm:block sm:px-6 sm:py-0"><dt class="text-mist">Sábado</dt><dd class="font-bold tabular-nums sm:mt-1 sm:text-2xl">9h às 13h</dd></div>
+            <div class="flex justify-between gap-4 py-3.5 sm:block sm:px-6 sm:py-0"><dt class="text-mist">Domingo</dt><dd class="font-bold sm:mt-1 sm:text-2xl">Fechado</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. PROFESSORES ============ -->
+    <section id="professores" class="bg-ink py-20 sm:py-28" aria-labelledby="pro-titulo">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="reveal max-w-2xl">
+          <h2 id="pro-titulo" class="display text-[clamp(2.4rem,12vw,3rem)] sm:text-6xl">Nossos <span class="text-mist">professores</span></h2>
+        </div>
+
+        <div class="mt-14">
+          <!-- Jair: dados do Instagram da academia. Trocar o monograma pela foto real. -->
+          <article class="reveal grid overflow-hidden rounded-3xl bg-coal sm:grid-cols-[260px_1fr] lg:grid-cols-[340px_1fr]">
+            <div class="flex aspect-[16/9] items-center justify-center bg-lime sm:aspect-auto" role="img" aria-label="Espaço para a foto do professor Jair Vieira">
+              <span class="display text-7xl text-ink sm:text-8xl" aria-hidden="true">JV</span>
+            </div>
+            <div class="p-6 sm:p-8">
+              <h3 class="text-3xl font-extrabold tracking-tight">Jair Vieira</h3>
+              <p class="mt-1 font-semibold text-lime">Professor e personal trainer</p>
+              <ul class="mt-5 space-y-2.5 text-[16px] text-bone/85">
+                <li class="flex gap-3"><svg class="mt-1 h-4 w-4 shrink-0 text-lime" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Especializado em fortalecimento 50+</li>
+                <li class="flex gap-3"><svg class="mt-1 h-4 w-4 shrink-0 text-lime" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Avaliação física e treino individualizado</li>
+                <li class="flex gap-3"><svg class="mt-1 h-4 w-4 shrink-0 text-lime" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Correção de postura e execução</li>
+              </ul>
+              <a href="#agendar" data-modalidade="Musculação" class="mt-8 inline-flex w-full items-center justify-center rounded-full bg-lime px-6 py-3.5 font-bold text-ink transition hover:brightness-110 sm:w-auto">Agendar aula experimental</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. DEPOIMENTOS ============ -->
+    <section id="avaliacoes" class="bg-coal py-20 sm:py-28" aria-labelledby="ava-titulo">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-16">
+          <div class="reveal">
+            <h2 id="ava-titulo" class="display text-[clamp(2.4rem,12vw,3rem)] sm:text-6xl">Quem treina, <span class="text-mist">recomenda</span></h2>
+            <div class="mt-8 flex flex-wrap items-end gap-x-4 gap-y-2">
+              <p class="display text-[clamp(5rem,28vw,7rem)] leading-none text-bone sm:text-[8.5rem]">4,5</p>
+              <div class="pb-3">
+                <div class="stars reveal flex gap-1 text-lime" role="img" aria-label="4,5 de 5 estrelas">
+                  <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+                  <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+                  <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+                  <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+                  <svg class="h-6 w-6" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="meia"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#2f3532"/></linearGradient></defs><path fill="url(#meia)" d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+                </div>
+                <a href="https://www.google.com/maps/place/Fit+Slim+tatuap%C3%A9/data=!4m7!3m6!1s0x94ce5e8b34e6ba5d:0xc76be91d66dd0bda!8m2!3d-23.5409505!4d-46.5582079!16s%2Fg%2F11c74kmkp0!19sChIJXbrmNItezpQR2gvdZh3pa8c" target="_blank" rel="noopener" class="mt-1 inline-block py-2 text-mist underline decoration-white/20 underline-offset-4 hover:text-lime hover:decoration-lime">92 avaliações no Google</a>
+              </div>
+            </div>
+            <div class="mt-8">
+              <a href="#agendar" class="inline-flex w-full items-center justify-center rounded-full bg-lime sm:w-auto px-6 py-3.5 font-bold text-ink transition hover:brightness-110">Agendar aula experimental</a>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <figure class="reveal rounded-3xl bg-ink p-6 sm:p-9">
+              <blockquote class="display text-3xl leading-[1.05] sm:text-4xl">“Treino há três anos, ótimos professores!!!!”</blockquote>
+              <figcaption class="mt-5 text-sm text-mist">Avaliação no Google</figcaption>
+            </figure>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <figure class="reveal rounded-3xl bg-ink p-6 sm:p-7">
+                <blockquote class="text-lg leading-relaxed text-bone">“Muito top a academia, equipamentos de primeira e são atenciosos os personal 👏👏👏👏”</blockquote>
+                <figcaption class="mt-5 text-sm text-mist">Avaliação no Google</figcaption>
+              </figure>
+              <figure class="reveal rounded-3xl bg-ink p-6 sm:p-7">
+                <blockquote class="text-lg leading-relaxed text-bone">“Academia muito boa, Jair muito gente fina e presente em ajudar o aluno”</blockquote>
+                <figcaption class="mt-5 text-sm text-mist">Avaliação no Google</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. AULA EXPERIMENTAL ============ -->
+    <section id="aula-experimental" class="bg-lime py-20 text-ink sm:py-28" aria-labelledby="exp-titulo">
+      <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
+        <div class="reveal">
+          <h2 id="exp-titulo" class="display text-[clamp(2.5rem,13vw,3.1rem)] sm:text-7xl lg:text-[5.5rem]">Sua primeira aula começa aqui</h2>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/551135304129?text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20experimental%20na%20Fit%20Slim%20tatuap%C3%A9." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-ink px-7 py-4 text-base font-bold text-bone transition hover:bg-slate active:scale-[.98]">
+              <svg class="h-5 w-5 text-lime" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2a9.9 9.9 0 0 0-8.57 14.86L2 22l5.27-1.38a9.9 9.9 0 0 0 4.77 1.21A9.9 9.9 0 0 0 21.94 12a9.83 9.83 0 0 0-2.9-7.09zm-7 15.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 1 1 6.98 3.86zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.78.97-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-1.98-1.22 7.5 7.5 0 0 1-1.37-1.7c-.14-.25 0-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.48a.92.92 0 0 0-.66.31 2.79 2.79 0 0 0-.87 2.07c0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.6.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29z"/></svg>
+              Agendar aula experimental
+            </a>
+            <a href="tel:+551135304129" class="inline-flex items-center justify-center rounded-full border-2 border-ink px-7 py-4 text-base font-bold transition hover:bg-ink hover:text-bone">Ligar para a academia</a>
+          </div>
+        </div>
+
+        <div class="reveal overflow-hidden rounded-3xl bg-ink text-bone">
+          <iframe title="Mapa: Fit Slim tatuapé na R. Diamante Preto, 116" src="https://www.google.com/maps?q=Fit%20Slim%20tatuap%C3%A9%2C%20R.%20Diamante%20Preto%2C%20116%2C%20S%C3%A3o%20Paulo&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-64 w-full grayscale invert-[.92] hue-rotate-180 sm:h-72"></iframe>
+          <div class="p-6 sm:p-7">
+            <p class="text-xl font-extrabold">R. Diamante Preto, 116</p>
+            <p class="mt-1 text-mist">Chácara Califórnia, São Paulo - SP, 03317-040</p>
+            <a href="https://www.google.com/maps/place/Fit+Slim+tatuap%C3%A9/data=!4m7!3m6!1s0x94ce5e8b34e6ba5d:0xc76be91d66dd0bda!8m2!3d-23.5409505!4d-46.5582079!16s%2Fg%2F11c74kmkp0!19sChIJXbrmNItezpQR2gvdZh3pa8c" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-2 py-2 font-bold text-lime underline decoration-lime/40 underline-offset-[6px] hover:decoration-lime">Como chegar <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink pb-28 pt-16 text-mist sm:pb-12 sm:pt-20" aria-labelledby="rodape-titulo">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="grid grid-cols-2 gap-x-6 gap-y-10 border-b border-line pb-12 lg:grid-cols-[1.3fr_1fr_1fr_1fr] lg:gap-10">
+        <div class="col-span-2 lg:col-span-1">
+          <img src="fit-slim-logo.jpg" alt="Logo Fit Slim — A sua academia" width="150" height="150" class="h-20 w-20 rounded-full" loading="lazy">
+          <p id="rodape-titulo" class="display mt-6 text-4xl text-bone">Força para<br><span class="text-lime">viver a vida</span></p>
+        </div>
+
+        <div class="col-span-2 lg:col-span-1">
+          <h2 class="text-sm font-semibold text-bone">Endereço</h2>
+          <p class="mt-4 leading-relaxed">R. Diamante Preto, 116<br>Chácara Califórnia<br>São Paulo - SP, 03317-040</p>
+          <a href="https://www.google.com/maps/place/Fit+Slim+tatuap%C3%A9/data=!4m7!3m6!1s0x94ce5e8b34e6ba5d:0xc76be91d66dd0bda!8m2!3d-23.5409505!4d-46.5582079!16s%2Fg%2F11c74kmkp0!19sChIJXbrmNItezpQR2gvdZh3pa8c" target="_blank" rel="noopener" class="mt-1 inline-block py-2 font-semibold text-lime underline decoration-lime/40 underline-offset-4 hover:decoration-lime">Como chegar</a>
+        </div>
+
+        <div>
+          <h2 class="text-sm font-semibold text-bone">Horário</h2>
+          <dl class="mt-4 space-y-3">
+            <div><dt>Segunda a sexta</dt><dd class="font-semibold text-bone tabular-nums">6h às 23h</dd></div>
+            <div><dt>Sábado</dt><dd class="font-semibold text-bone tabular-nums">9h às 13h</dd></div>
+          </dl>
+        </div>
+
+        <div>
+          <h2 class="text-sm font-semibold text-bone">Contato</h2>
+          <ul class="mt-2">
+            <li><a class="inline-block py-2 transition-colors hover:text-lime" href="https://wa.me/551135304129" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a class="inline-block py-2 tabular-nums transition-colors hover:text-lime" href="tel:+551135304129">(11) 3530-4129</a></li>
+            <li><a class="inline-block break-all py-2 transition-colors hover:text-lime" href="https://www.instagram.com/fitslimacademia/" target="_blank" rel="noopener">@fitslimacademia</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-3 pt-8 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <p>© 2026 Fit Slim tatuapé</p>
+        <a href="#inicio" class="inline-flex items-center gap-2 py-2.5 transition-colors hover:text-lime">Voltar ao topo
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a href="https://wa.me/551135304129" target="_blank" rel="noopener" aria-label="Falar com a Fit Slim tatuapé no WhatsApp"
+     class="wa-float fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full border-2 border-ink bg-lime text-ink transition hover:scale-105 active:scale-95 sm:right-5 sm:h-16 sm:w-16">
+    <svg class="h-7 w-7 sm:h-8 sm:w-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2a9.9 9.9 0 0 0-8.57 14.86L2 22l5.27-1.38a9.9 9.9 0 0 0 4.77 1.21A9.9 9.9 0 0 0 21.94 12a9.83 9.83 0 0 0-2.9-7.09zm-7 15.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 1 1 6.98 3.86zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.78.97-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-1.98-1.22 7.5 7.5 0 0 1-1.37-1.7c-.14-.25 0-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.48a.92.92 0 0 0-.66.31 2.79 2.79 0 0 0-.87 2.07c0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.6.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29z"/></svg>
+  </a>
+
+  <script>
+    const WA = 'https://wa.me/551135304129?text=';
+
+    // Menu mobile
+    const menuBtn = document.getElementById('menuBtn');
+    const menu = document.getElementById('menuMobile');
+    menuBtn.addEventListener('click', () => {
+      const open = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!open));
+      menuBtn.setAttribute('aria-label', open ? 'Abrir menu' : 'Fechar menu');
+      menu.classList.toggle('hidden', open);
+    });
+    menu.addEventListener('click', (e) => { if (e.target.closest('a')) menuBtn.click(); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') { menuBtn.click(); menuBtn.focus(); }
+    });
+
+    // Cabeçalho sólido depois de rolar
+    const topo = document.getElementById('topo');
+    const onScroll = () => topo.classList.toggle('scrolled', window.scrollY > 24);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Montador da aula experimental → WhatsApp com mensagem pronta
+    const form = document.querySelector('[data-wa-form]');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const d = new FormData(form);
+      const msg = `Olá! Quero agendar uma aula experimental de ${d.get('modalidade')} na Fit Slim tatuapé, de preferência no período da ${d.get('periodo')}.`;
+      const url = WA + encodeURIComponent(msg);
+      // Alguns navegadores de celular bloqueiam nova aba: nesse caso abre na mesma
+      const w = window.open(url, '_blank');
+      if (w) w.opener = null; else window.location.href = url;
+    });
+    // Links "Agendar" das modalidades já marcam a opção no formulário
+    document.querySelectorAll('[data-modalidade]').forEach((a) => a.addEventListener('click', () => {
+      const r = form.querySelector(`input[name="modalidade"][value="${a.dataset.modalidade}"]`);
+      if (r) r.checked = true;
+    }));
+
+
+    // Itens de grupos (galeria, depoimentos) entram em sequência
+    document.querySelectorAll('.stagger').forEach((g) => {
+      [...g.children].forEach((el, i) => el.style.setProperty('--d', `${i * 80}ms`));
+    });
+    document.querySelectorAll('#avaliacoes figure').forEach((el, i) => el.style.setProperty('--d', `${i * 100}ms`));
+
+    // Entrada suave das seções
+    const io = 'IntersectionObserver' in window && new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('is-visible'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal').forEach((el) => io ? io.observe(el) : el.classList.add('is-visible'));
+  </script>
+</body>
+</html>
